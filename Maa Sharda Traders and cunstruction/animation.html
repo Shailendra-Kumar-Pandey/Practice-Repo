@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation properrty</title>
+    <style>
+        a{
+            animation: bouncing 0.5s ease 0s infinite alternate both ;
+            background:green;
+            border-radius:50%;
+            color:ghostwhite;
+            cursor:pointer;
+            text-transform: uppercase;
+            font-size: large;
+            font-weight: 500;
+            padding: 1em 2em 1.1em;
+            text-decoration: none;
+            letter-spacing: 0.2em;
+            display: inline-block;
+            position: relative;
+            vertical-align: top;
+            margin-top: 130px;
+        }
+        @keyframes bouncing  {
+            0%{
+                bottom: 0;
+                box-shadow: 0 0 5px rgba(0, 0, 120 ,1)
+                }
+                100%{
+                bottom: 50px;
+                box-shadow: 0 50px 50pxpx rgba(0, 0, 0 ,0.5)
+                }
+        }
+    </style>
+</head>
+<body>
+      <a>Box</a>
+</body>
+</html>

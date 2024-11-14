@@ -1,0 +1,27 @@
+*{
+    padding: 10px;
+}
+    h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    text-overflow: none;
+    margin: 5px;
+    word-spacing: 5px;
+}
+div{
+width: 24%;
+background-color: #333;
+overflow: none;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    background-color: #333;
+    overflow: none
+;
+}
+
+@media all (max-height: 600px) and (orientation)

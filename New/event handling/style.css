@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: ghostwhite;
+}
+.container{
+    height:80vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    /* background-color: aliceblue; */
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 7.2rem;
+    width: 7.15rem;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 6rem;
+}
+button{
+        padding: 1rem;
+        background-color: #333;
+        color: ghostwhite;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 900;
+}
+.box{
+    border-left:none;
+    border-bottom: none;   
+}
+
+}

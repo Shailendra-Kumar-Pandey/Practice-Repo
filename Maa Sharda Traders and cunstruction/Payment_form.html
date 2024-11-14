@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Payment_form.css">
+        <title>Payment Form</title>
+</head>
+    <body>
+        <div>
+        <h1>Payment Form</h1>
+        <p class="important" >Requerd Field followed by *</p>
+        <form action="">
+           <p> <h2> Emplooy Information and details </h2></p>
+           <p ><b> Emplooy Fist Name* </b> <input type="text" name="Emplooy Fist Name" required placeholder="Rahul" > 
+        </p>
+           <p>
+            <b>Emplooy Last Name*</b> <input type="text" name="Emplooy Last Name" required placeholder="Pandey" >
+
+           </p>
+           <fieldset>
+            <legend>Gender*</legend>
+           <p> 
+            <b> Male </b> <input type="radio" name="gender" id="male" > <b> Female </b> <input type="radio" name="gender" id="Female">
+         </p>
+        </fieldset>
+         <p>Address <textarea name="Address" id="Address" cols="80" rows="5" placeholder="for example- IP Nagar Pateri Satna Madhya pradesh Pin Code-000000"></textarea></p>
+         <p>Email* <input type="email" name="Email" id="email" required placeholder="example@gmail.com"></p>
+         <p>Pincode*<input type="number" name="Pincode" id="Pincode" required placeholder="000000"> </p>
+         <p>City* <input type="text" name="City" id="City" required placeholder="Rewa"> </p>
+         <p>State* <input type="text" required placeholder="Madhya Pradesh"></p>
+         <p>Nationlity* 
+            <select name="Nationlity" id="Nationlity">
+                <option value=""> --salect your Nation-- </option>
+                <option value="INDIAN">INDIAN </option>
+                <option value="Other Nationlity">Other Nationlity</option>
+            </select></p>
+            <br>
+                            <h2>Card Information*</h2>
+                            <p> 
+                                Visa <input type="radio" name="Card" id="Visa"> Master Card <input type="radio" name="Card" id="Master Card"> Rupay <input type="radio" name="Card" id="Rupay">
+
+            </p>
+            <p>
+                Card Number*: <input type="number" name="Card Number" id="Card Number" required placeholder="0000 0000 0000 0000">
+            </p>
+            <P>
+                Expiry Date* <input type="date" name="Expiry Date" id="Expiry Date" required placeholder="00-00-0000">
+            </P>
+            <p>
+                <b> CVV* </b> <input type="password" name="CVV" id="CVV" required placeholder="***" >
+            </p>
+            <input type="submit" value="Pay Now">
+        
+        </form>
+    </div>
+    </body>
+</html>

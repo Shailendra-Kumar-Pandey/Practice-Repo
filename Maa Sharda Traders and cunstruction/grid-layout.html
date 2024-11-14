@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout </title>
+    <STYle>
+        .contener{
+            display: grid;
+            grid-gap:20px;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 2fr)); 
+            grid-auto-rows: 100px;
+            grid-auto-columns: 70px;
+                        }
+        .items{
+            background-color: lightskyblue;
+            border: 3px #333 solid;
+            border-radius: 5px;
+        }
+        #item1{
+            grid-column-start: 1;
+            grid-column-end: 7;
+        }
+        .box1{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+                    }
+                    .nesting-items{
+                        background-color: lightsalmon;
+                        border: 4px black solid;
+                        border-radius: 5px;
+                    }
+    </STYle>
+</head>
+<body>
+   <div class="contener">
+    <div class="items box1" id="item1"> 
+        <div class="nesting-items">box to box 1</div>
+        <div class="nesting-items">box to box 2</div>
+        <div class="nesting-items">box to box 3</div>
+        <div class="nesting-items">box to box 4</div>
+    </div>
+    <div class="items">box 2</div>
+    <div class="items">box 3</div>
+    <div class="items">box 4</div>
+    <div class="items">box 5</div>
+</div> 
+</body>
+</html>
