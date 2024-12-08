@@ -6,20 +6,20 @@
 // //     console.log(age + ' you are minner');
 // // }
 
-// let a = 5;
-// let b = 10;
+let a = 5;
+let b = 10;
 
-// console.log("Before calculation: a =", a, "b =", b);  // Logs values of a and b before calculation
+console.log("Before calculation: a =", a, "b =", b);  // Logs values of a and b before calculation
 
-// let sum = a + b;
+let sum = a + b;
 
-// console.log("After calculation: sum =", sum);  // Logs the result of the calculation
+console.log("After calculation: sum =", sum);  // Logs the result of the calculation
 
-// if (sum > 10) {
-//     console.log("Sum is greater than 10");
-// } else {
-//     console.log("Sum is 10 or less");
-// }
+if (sum > 10) {
+    console.log("Sum is greater than 10");
+} else {
+    console.log("Sum is 10 or less");
+}
 
 // let temperature = 20;  
 
@@ -60,14 +60,14 @@
 // }
 
 
-// // let age = 30;
-// // let isMember = true;
+// let age = 30;
+// let isMember = true;
 
-// // if (age >= 18 && isMember) {
-// //     console.log("Eligible for the offer.");
-// // } else {
-// //     console.log("Not eligible for the offer.");
-// // }
+// if (age >= 18 && isMember) {
+//     console.log("Eligible for the offer.");
+// } else {
+//     console.log("Not eligible for the offer.");
+// }
 
 let isAuthenticated = true;
 let isAdmin = false;
@@ -78,17 +78,17 @@ if (isAuthenticated && isAdmin) {
     console.log("Access denied.");
 }
 
-// // let age = 15;
-// // let hasLicense = true;
-// // let hasCar = true;
+// let age = 15;
+// let hasLicense = true;
+// let hasCar = true;
 
-// // if (age >= 18 && hasLicense && hasCar) {
-// //     console.log("You can drive.");
-// // } else {
-// //     console.log("You cannot drive.");
-// // }
+// if (age >= 18 && hasLicense && hasCar) {
+//     console.log("You can drive.");
+// } else {
+//     console.log("You cannot drive.");
+// }
 
-// // let age = 10;
+// let age = 10;
 let isMember = false;
 
 if (age < 18 || !isMember) {
