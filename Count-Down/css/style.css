@@ -16,11 +16,18 @@
     /* justify-content: center; */
     /* align-items: center; */
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .title{
     margin-top: 20px;
     color: white;
     text-align: center;
     font-size: 2.5rem;
+}
+.timer-box{
+    margin-top: 50px;
+    align-self: center;
+    width: 800px;
+    height: 100px;
+    border: 2px dashed rgba(224, 72, 224, 0.791);
 }
