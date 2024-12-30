@@ -24,6 +24,7 @@
     font-size: 2.5rem;
 }
 .timer-box{
+    margin-top: 50px;
     width: 1000px;
     display: flex;
     justify-content: center;
