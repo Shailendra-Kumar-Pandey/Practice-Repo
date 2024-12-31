@@ -26,7 +26,8 @@
     width: 400px;
     height: 400px;
     background-color: white;
-    margin: 15px;
+    margin:15px;
+    padding-bottom: 30px;
 }
 .tool{
     width: 100%;
